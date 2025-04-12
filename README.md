@@ -1,6 +1,6 @@
 # 🌀 Soil-Moisture-Sensor-Calculation
 
-Soil Moisture Calculation Test for LM393 Soil Moisture Sensor 
+Soil Moisture Calculation Test for LM393 Soil Moisture Sensor using Arduino Uno R3
 
 It displays the recorded Sensor Value and shows the mathematical computation needed to compute the Moisture Percentage using C++ for Arduino IDE.
 
