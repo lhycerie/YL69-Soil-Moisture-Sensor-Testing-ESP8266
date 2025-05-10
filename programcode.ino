@@ -8,8 +8,11 @@ void setup() {
 }
 
 void loop() {
-  int sensorValue = analogRead(A0); // initialization
-  float percent = ((float)(sensorValue - DRY_VALUE) / (WET_VALUE - DRY_VALUE)) * 100;
+  int sensorValue = analogRead(A0); // Initialization
+  
+  float percent = ((float)(sensorValue - DRY_VALUE) / (WET_VALUE - DRY_VALUE)) * 100; // Calculate percent
+
+  //Displays both analog and percentage
   Serial.print("Sensor Value: ");
   Serial.println(sensorValue);
   Serial.print(", Moisture Percent: ");
