@@ -4,8 +4,6 @@ Soil Moisture Calculation Test for YL69 Soil Moisture Sensor using Arduino Uno R
 
 It displays the recorded Sensor Value and shows the mathematical computation needed to compute the Moisture Percentage using C++ for Arduino IDE.
 
-A code dedicated to the completion of the Capstone Research.
-
 # 💧 Description 
 
 The code reads data from a soil moisture sensor connected to analog pin A0 and calculates the soil moisture percentage.
